@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.item {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-radius: 4px;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  border-bottom: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .item {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.text {
+  font-size: 12px;
+  font-family: 'roboto';
+  color: #475569;
+  margin: 10px;
+  width: 30%;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 14px;
+  }
+}
+.del-container {
+  width: 10%;
+  display: flex;
+}
+.button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.delete-icon {
+  width: 18px;
+  height: 18px;
+  align-self: center;
+}
